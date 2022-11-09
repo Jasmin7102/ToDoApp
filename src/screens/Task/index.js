@@ -42,6 +42,7 @@ class Home extends Component {
               this.setState({heading: text});
             }}
             value={this.state.heading}
+            editable={false}
             placeholder="Title"
             keyboardType="default"
           />
